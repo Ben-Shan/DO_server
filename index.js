@@ -5,6 +5,9 @@ app.get('/', function (req, res) {
   res.send('Hello Digital Ocean!')
 })
 
+app.get('/image', function (req, res) {
+	res.send("Images");
+})
 app.listen(3000, function () {
   console.log('Magic is happening on port 3000!')
 })
